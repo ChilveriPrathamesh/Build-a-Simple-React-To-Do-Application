@@ -1,0 +1,62 @@
+/* src/components/TaskList/TaskList.css */
+
+.task-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .task-item-container {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .task-item-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-item-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .task-item-buttons .edit-task-button {
+    color: #28a745; /* Green color for the edit button */
+  }
+  
+  .task-item-buttons .edit-task-button:hover {
+    color: #218838; /* Darker green on hover */
+  }
+  
+  .task-item-buttons .delete-task-button {
+    color: #dc3545; /* Red color for the delete button */
+  }
+  
+  .task-item-buttons .delete-task-button:hover {
+    color: #c82333; /* Darker red on hover */
+  }
+  
